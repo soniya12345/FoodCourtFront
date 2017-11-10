@@ -30,9 +30,7 @@
 				<ul class="nav navbar-nav navbar-right">
 					<c:if test="${isUserLoggedIn=='true'}"> 
 						<!--<c:url var="Logout" value="/j_spring_security_Logout"/>-->
-						<c:if test="${isUserLoggedIn=='true'}"  >
-						 <li ><a href="Home"><i class="fa fa-user" aria-hidden="true"></i> ${user.name}</a></li>
-						 </c:if>
+						<li><a href=""><i class="fa fa-user" aria-hidden="true"></i> ${User}</a></li>
 						<li><a href="myCart"><i class="fa fa-shopping-cart" aria-hidden="true"></i> My Cart <span class="label label-info">${cartSize}</span></a></li>
 						<li><a href="secure_logout"><i class="fa fa-sign-out" aria-hidden="true"></i> Log Out </a></li>
 
