@@ -38,7 +38,7 @@
 					<tr>
 						<td>${cart.product_name}</td>
 						<td><fmt:formatDate pattern="dd/MM/yyyy" value="${cart.date_added}" /></td>
-						<td><input type="number" id="numberfield" value="${cart.quantity }"/></td>
+						<td>${cart.quantity }</td>
 
 						<td>${cart.price}</td>
 						<td><a href="myCart-delete/${cart.id}" class="btn btn-danger">Remove</a></td>

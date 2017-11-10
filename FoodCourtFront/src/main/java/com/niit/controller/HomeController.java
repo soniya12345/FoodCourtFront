@@ -61,7 +61,7 @@ public class HomeController {
 		ModelAndView mv = new ModelAndView("Home");
 		mv.addObject("message", "WELCOME TO  FOOD COURT WEBSITE <br>");
 		mv.addObject("isUserAtHomePage", "true");
-		// model.addAttribute("message", "Thank you for visiting Shopping Cart!
+		// model.addAttribute("message", "Thank you for visiting FoodCourt!
 		// <br>");
 
 		// get all categories
@@ -95,7 +95,7 @@ public class HomeController {
 	@RequestMapping("/Home")
 	public ModelAndView goToHomeButton() {
 		ModelAndView mv = new ModelAndView("Home");
-		mv.addObject("message", "Thank you for visiting Shopping Cart! <br>");
+		mv.addObject("message", "Thank you for visiting Food Court! <br>");
 		mv.addObject("isUserAtHomePage", "true");
 		
 		// get all categories
